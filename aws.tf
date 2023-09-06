@@ -4,6 +4,6 @@ resource "aws_instance"  "pooja-instance" {
     count = 1
 
     tags = {
-       Name = "pooja-vm"
+       Name = "pooja-vm1"
     }
 }
